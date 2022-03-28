@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAYOUTS</title>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        /* Style the header */
+        header {
+          background-color: #666;
+          padding: 30px;
+          text-align: center;
+          font-size: 35px;
+          color: white;
+        }
+        
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+          float: left;
+          width: 30%;
+          height: 300px; /* only for demonstration, should be removed */
+          background: #ccc;
+          padding: 20px;
+        }
+        
+        /* Style the list inside the menu */
+        nav ul {
+          list-style-type: none;
+          padding: 0;
+        }
+        
+        article {
+          float: left;
+          padding: 20px;
+          width: 70%;
+          background-color: #f1f1f1;
+          height: 300px; /* only for demonstration, should be removed */
+        }
+        
+        /* Clear floats after the columns */
+        section::after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Style the footer */
+        footer {
+          background-color: #777;
+          padding: 10px;
+          text-align: center;
+          color: white;
+        }
+        
+        @media (max-width: 900px) {
+          nav, article {
+            width: 100%;
+            height: auto;
+          }
+        }
+        </style>
+        </head>
+</head>
+
+
+<header>La música es un fenómeno universal</header>
+<body>
+<h2>¿Y si tuviéramos que definir a la humanidad en base a una faceta común a todas las culturas?<br> En la música encontraríamos un criterio unificador inherente a todas ellas,<br> según han comprobado estos investigadores.</h2>
+    
+<article>
+    <section><p>
+        
+Desde que el poeta Henry Wadsworth Longfellow, miembro de la Academia Estadounidense de las Artes y las Ciencias declaró en 1835 que "la música es el lenguaje universal de la humanidad", tanto la literatura popular como la científica han asumido que la música es un lenguaje universal con profundas similitudes entre las sociedades de distintos lugares o periodos históricos.
+    </p>    
+</article>
+</section>
+<footer>
+    <p>Articulos Relacionados</p>
+    <p>Las características acústicas identificables de las canciones como el acento, el tempo el tono predicen el contexto de la música</p>
+  </footer>
+<article>
+    <section>
+        <p>
+            En este sentido, la musicalidad está incrustada en la biología del Homo sapiens. La música es una característica inherente al ser humano, ya sea como resultado de una adaptación evolutiva, o como el subproducto de las adaptaciones individuales para la percepción auditiva, el control motor, el lenguaje el afecto, o alguna amalgama de todos estos.
+        </p>
+    </section>
+</article>
+<article>
+    <section>
+        <p>
+            Pero, ¿existen pistas o evidencias suficientes que respalden la afirmación de que la música es universal? De hecho, nadie duda que la música varía según las diferentes culturas. Sin embargo, esta gran diversidad puede enmascarar los patrones de los mecanismos psicológicos comunes a todas ellas.
+        </p>
+    </section>
+</article>
+<footer>
+<p>La música supone un rasgo cultural común a todo ser humano</p>
+</footer>
+<article>
+    <p>
+        Muchos antropólogos, psicólogos y científicos cognitivos han demostrado que los patrones de comportamiento que alguna vez se consideraron productos culturales arbitrarios pueden exhibir similitudes más profundas y abstractas de las sociedades. De estas emergen rasgos universales de la naturaleza humana como son la religión, las preferencias de pareja, las relaciones sociales, la moral, la violencia, la guerra o los sistemas políticos y económicos. Y aunque pueda resultar difícil de estudiar, Samuel Mehr,de la Universidad de Harvard,y su equipo, sostienen en el estudio publicado recientemente en Science, titulado Universality and diversity in human song, quela música supone otro rasgo cultural común a todo ser humano.
+"Las hipótesis de la función evolutiva de la música son incontestables sin datos exhaustivos y representativos sobre sus formas y contextos de comportamiento en las distintas sociedades, por ello en nuestro experimento llevamos a cabo un estudio de historia natural de la canción: un análisis sistemático de las características de la música vocal en todo el mundo" explica Merh. Dicho estudio abordó un conjunto de canciones propias de cada grupo etnográfico en el que se observó el comportamiento musical de una muestra representativa de distintas sociedades. Sirviéndose de las ciencias sociales y sus herramientas de análisis, los científicos trataron en su estudio de dar respuesta a 6 preguntas diferentes: ¿Es la música universal? ¿Qué tipos de comportamiento están asociados con la canción y cómo varían entre las sociedades? ¿Las características musicales de una canción son indicativas de su contexto conductual -por ejemplo, una canción de cuna-? ¿Los patrones melódicos y rítmicos de las canciones varían sistemáticamente, como los patrones que se encuentran en el lenguaje? ¿Y cuán importante es la tonalidad en los lenguajes musicales?
+    </p>
+</article
+</body>
+</html>
